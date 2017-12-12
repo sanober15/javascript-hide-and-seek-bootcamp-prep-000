@@ -24,10 +24,10 @@ function increaseRankBy(n){
   const rl = document.querySelectorAll('.ranked-list')
 
   for (var i = 0; i < rl.length; i++) {
-    var children = rl[i].children
+    var child = rl[i].children
 
     for (var j = 0; j < child.length; j++) {
-      children[j].innerHTML = parseInt(child[j].innerHTML) + n
+      child[j].innerHTML = parseInt(child[j].innerHTML) + n
 
     }
 
