@@ -20,7 +20,7 @@ function deepestChild(){
   return nd
 }
 
-function inscreaseRankBy(n){
+function increaseRankBy(n){
   const rankedLists = document.querySelector('.ranked-list')
 
   for (var i = 0; i < rl.length; i++) {
