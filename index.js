@@ -28,5 +28,5 @@ function deepestChild(){
     nextnd =  nd.children[0]
   }
 
-  return node
+  return nd
 }
