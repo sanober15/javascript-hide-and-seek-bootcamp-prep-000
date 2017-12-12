@@ -1,4 +1,5 @@
 function getFirstSelector(selector){
-  var element = document.getElementsByTagName('selector')
+  var s = selector.toString()
+  var element = document.getElementsByTagName(s)
   return element;
 }
