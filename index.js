@@ -1,4 +1,6 @@
 function getFirstSelector(selector){
-  document.querySelectorAll(selector)
-  //document.querySelector()
+  const s = document.querySelectorAll('s')[0]
+  s.tectContent = selector
 }
+
+function nestedTarget()
