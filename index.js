@@ -32,5 +32,5 @@ function increaseRankBy(n){
     }
 
   }
-  return child;
+
 }
