@@ -1,5 +1,5 @@
 function getFirstSelector(selector){
 
-  var element = document.getElementsByTagName(selector)
+  var element = document.getElementsByClassName('selector')
   return element;
 }
