@@ -1,17 +1,15 @@
-function getFirstSelector(selector){
-
-  var element = document.getElementById(selector)
-  return element;
+function getFirstSelector(s){
+  return document.querySelector(s)
 }
 
 function nestedTarget(){
-  
+
 }
 
 function inscreaseRankBy(n){
-  
+
 }
 
 function deepestChild(){
-  
+
 }
